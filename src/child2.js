@@ -1,8 +1,8 @@
 import React, { useReducer } from 'react'
-import Counter_Reducer from './Counter_Reducer';
+import Reducer from './Counter_Reducer';
 import "./App.css";
 const Child2 = ()=>{
-let[state,dispatch] = useReducer(Counter_Reducer , 0)
+let[state,dispatch] = useReducer(Reducer , 0)
 return (
 
 <div align = "center">
